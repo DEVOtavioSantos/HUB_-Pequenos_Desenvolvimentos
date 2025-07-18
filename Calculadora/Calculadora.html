@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="container">
+        <div class="templete">
+            <h3>Calculadora</h3>
+            <input type="text" class="display" readonly>
+            <div class="btns">
+                <table>
+                    <tr>
+                        <td><input type="button" value="C" class="btn" onclick="Limpar()"></td>
+                        <td><input type="button" value="%" class="btn" onclick="adicionar('%')"></td>
+                        <td><input type="button" value="/" class="btn" onclick="adicionar('/')"></td>
+                        <td><input type="button" value="" class="btn" onclick="console.log('Botão Vazio')"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="7" class="btn" onclick="adicionar('7')"></td>
+                        <td><input type="button" value="8" class="btn" onclick="adicionar('8')"></td>
+                        <td><input type="button" value="9" class="btn" onclick="adicionar('9')"></td>
+                        <td><input type="button" value="X" class="btn" onclick="adicionar('*')"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="4" class="btn" onclick="adicionar('4')"></td>
+                        <td><input type="button" value="5" class="btn" onclick="adicionar('5')"></td>
+                        <td><input type="button" value="6" class="btn" onclick="adicionar('6')"></td>
+                        <td><input type="button" value="-" class="btn" onclick="adicionar('-')"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="1" class="btn" onclick="adicionar('1')"></td>
+                        <td><input type="button" value="2" class="btn" onclick="adicionar('2')"></td>
+                        <td><input type="button" value="3" class="btn" onclick="adicionar('3')"></td>
+                        <td><input type="button" value="+" class="btn" onclick="adicionar('+')"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="," class="btn" onclick="adicionar('.')"></td>
+                        <td><input type="button" value="0" class="btn" onclick="adicionar('0')"></td>
+                        <td><input type="button" value="=" class="btn" onclick="Calcular()"></td>
+                    </tr>
+                    
+
+
+
+                </table>
+            </div>
+        </div>
+        <div class="Color">
+            <h3>Alterar Cor</h3>
+        <p>Cor da Calculadora</p>
+            <input type="color" name="" id="corcalculadora" 
+            class="Seletor" value="#ffffff"><br>
+    
+            <input type="button" value="Aplicar" class="Cor_btn" onclick="AlterarCores()">
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
