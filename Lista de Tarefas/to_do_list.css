@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #4C7E80;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: cadetblue;
+    box-shadow: 5px 4px 4px black;
+}
+
+.Label_input{
+    color: white;
+    background-color: cadetblue;
+    margin: 5px;
+}
+
+.input-task{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.btn-task{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: cadetblue;
+    color: white;
+    margin: 5px;
+}
+
+.lista{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 20px;
+    box-shadow: 5px 4px 4px black;
+    background-color: cadetblue;
+    
+}
+
+
+li, h1   {
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+    background-color: cadetblue;
+}
+.apagar{
+    margin-left: 15px;
+}
+
+.btn-Style{
+    padding: 5px;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.btn-Style :active{
+    padding: 5px;
+    background-color: white;
+    color: cadetblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 1s all;
+    
+}
+
+.tasklist{
+    background-color: cadetblue;
+}

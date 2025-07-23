@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista De tarefas</title>
+    <link rel="stylesheet" href="to_do_list.css">
+</head>
+<body>
+    <section class="container">
+        <div class="card">
+            <label for="input" class="Label_input">Qual é a tarefa:</label>
+            <input type="text" id="input" class="input-task" autocomplete="off" placeholder="Qual será a tarefa Marcada?" >
+            <input type="button" value="Adicionar nova tarefa" class="btn-task">
+        </div>
+        <div class="lista">
+            <h1>Lista de Tarefas:</h1>
+            <ul class="tasklist"></ul>
+        </div>
+    </section>
+
+    <script src="to_do_list.js"></script>
+</body>
+</html>
