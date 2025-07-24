@@ -28,6 +28,7 @@
 
 .input-task{
     border: 1px solid black;
+    width: 300px;
     border-radius: 5px;
     background-color: white;
     padding: 5px;

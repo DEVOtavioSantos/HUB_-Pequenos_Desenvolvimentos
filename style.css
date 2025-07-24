@@ -1,21 +1,41 @@
 *{
+   
+    
     text-decoration: none;
     color: black;
     font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #ff6149;
 }
 
 
 .container{
     display: grid;
+    width: 500px;
+    background-color: #ff6149;
     grid-template-columns: 120px 120px 120px 120px;
     grid-template-rows: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 5px 4px 44px black;
 }
 
 .Relogio{
     width: 400px;
     height: 50px;
-    
+    background-color: #ff6149;
     border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 5px 4px 44px black;
+}
+
+.Git{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
 }
