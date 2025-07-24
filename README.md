@@ -1,1 +1,1 @@
-(Página)[https://devotaviosantos.github.io/HUB_-Pequenos_Desenvolvimentos/~]
+[Página](https://devotaviosantos.github.io/HUB_-Pequenos_Desenvolvimentos/)
