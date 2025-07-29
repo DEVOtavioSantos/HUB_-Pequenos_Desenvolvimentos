@@ -1,21 +1,11 @@
-function Funcionario(nome, email, senha, cargo, cpf)
+function Funcionario(nome, email, senha, cargo,)
 {
     this.nome = nome
     this.email = email
     this.senha = senha
     this.cargo = cargo
 
-    const cpfLimpo = cpf.replace(/\D+/g,'')
-    Object.defineProperty(this, 'cpfLimpo', {
-        get: function() {
-            return cpfLimpo
-
-        }
-    })
-
-
-    
-
+  
 }
 
 
