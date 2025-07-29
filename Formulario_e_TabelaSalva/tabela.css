@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.Modos{
+    margin-top: 15px;
+
+
+}
+
+.btn{
+    padding: 15px;
+}
+.btn:hover{
+    padding: 18px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tabela{
+    padding: 50px;
+}
+
+table, thead, tr ,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    padding: 20px;
+}
+
+.N_encontro{
+    color: red;
+}
+
+.templete{
+    margin-top: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}

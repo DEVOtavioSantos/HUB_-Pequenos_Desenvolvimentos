@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.templete{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.Modos{
+    margin-top: 15px;
+
+
+}
+
+.btn{
+    margin: 15px;
+}
+.btn:hover{
+    padding: 18px;
+    font-weight: bold;
+}
+
+
+.btn_form{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.btn_form:hover{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn_form:active{
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+
+}
